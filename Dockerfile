@@ -1,4 +1,4 @@
-FROM php:7.0.23-fpm-alpine
+FROM php:7.0.33-fpm-alpine
 RUN apk upgrade --update && apk add \
     coreutils \
     autoconf \
